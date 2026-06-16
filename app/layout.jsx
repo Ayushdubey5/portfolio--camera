@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
-
+import ScrollingCamera from '@/components/ScrollingCamera';
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="font-sans antialiased bg-[#0a0a0a] text-white">
-        
+        <ScrollingCamera /> {/* ✅ Add this */}
         {children}
       </body>
     </html>

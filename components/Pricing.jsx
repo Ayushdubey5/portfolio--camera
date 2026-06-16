@@ -7,7 +7,7 @@ import { pricingData } from '@/data/pricingData';
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-32 bg-[#0a0a0a] px-4 md:px-0">
+    <section id="packages" className="py-32 bg-[#0a0a0a] px-4 md:px-0">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <motion.div

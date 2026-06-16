@@ -14,7 +14,7 @@ export default function HeroHeader() {
 });
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-[#0a0a0a] overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-[#0a0a0a] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center w-full">
         
         {/* ✅ Left side - Heading */}

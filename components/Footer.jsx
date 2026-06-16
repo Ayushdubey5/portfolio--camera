@@ -35,7 +35,7 @@ export default function Footer() {
   };
 
   return (
-    <footer id="contact" className="relative bg-[#050505] border-t border-[#1e293b] px-4 md:px-0">
+    <footer id="footer" className="relative bg-[#050505] border-t border-[#1e293b] px-4 md:px-0">
       {/* Top gradient line */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#00b4d8] to-transparent"></div>
 
